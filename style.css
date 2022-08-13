@@ -1,0 +1,67 @@
+html {
+    /*background: rgba(25,0,124,0.98);*/
+    height: 200%;
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+.hello {
+    font-size: 9em;
+    color: darkred;
+    text-shadow: 2px 2px #171616;
+    padding: 0 20px 0 20px;
+    margin: 0 0 -40px 0;
+}
+
+.tbl {
+    /*для всей таблицы*/
+    margin: 10px 0 0 150px;
+
+}
+
+.tbl tr td{
+    /*для каждой ячейки таблицы*/
+    padding: -10px 25px 0 50px;
+    font-size: 1.5em;
+    color: darkred;
+    text-shadow: 2px .5px rgba(0,0,0,0.84);
+}
+
+button {
+    margin: 20px;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn-2 {
+    /*background: rgb(96,9,240);*/
+    background: linear-gradient(0deg, rgb(105, 10, 24) 0%, rgb(145, 5, 16) 100%);
+    border: none;
+
+}
+.btn-2:before {
+    height: 0%;
+    width: 2px;
+}
+.btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
