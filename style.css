@@ -31,12 +31,20 @@ html {
 button {
     margin: 20px;
 }
+
+.btn {
+    padding: 30px 0 0 0;
+    /*    для обоих сверху*/
+}
+
 .custom-btn {
     text-decoration: none;
     height: 40px;
     color: #ffffff;
     border-radius: 20px;
     padding: 10px 25px;
+    margin: 0 10px 0 0;
+    /*для обоих кнопок спава*/
     font-family: 'Aboreto', cursive;
     font-weight: 500;
     font-size: 17px;
