@@ -33,13 +33,13 @@ button {
 }
 .custom-btn {
     text-decoration: none;
-    width: 130px;
     height: 40px;
     color: #ffffff;
     border-radius: 20px;
     padding: 10px 25px;
     font-family: 'Aboreto', cursive;
     font-weight: 500;
+    font-size: 17px;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
