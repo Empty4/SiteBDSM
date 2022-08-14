@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 html {
     /*background: rgba(25,0,124,0.98);*/
     height: 200%;
@@ -18,12 +20,12 @@ html {
 
 }
 
-.tbl tr td{
+.tbl tr td {
     /*для каждой ячейки таблицы*/
     padding: -10px 25px 0 50px;
     font-size: 1.5em;
     color: darkred;
-    text-shadow: 2px .5px rgba(0,0,0,0.84);
+    text-shadow: 1.5px .3px rgba(0, 0, 0, 0.84);
 }
 
 button {
@@ -33,18 +35,18 @@ button {
     text-decoration: none;
     width: 130px;
     height: 40px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 20px;
     padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Aboreto', cursive;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),
-    7px 7px 20px 0 rgba(0,0,0,.1),
-    4px 4px 5px 0 rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, .5),
+    7px 7px 20px 0 rgba(0, 0, 0, .1),
+    4px 4px 5px 0 rgba(0, 0, 0, .1);
     outline: none;
 }
 .btn-2 {
@@ -56,12 +58,12 @@ button {
 .btn-2:before {
     height: 0;
     width: 2px;
+    text-shadow: 2px 5px #171616;
 }
 .btn-2:hover {
-    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
     -4px -4px 6px 0 rgba(116, 125, 136, .5),
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    text-shadow: -2px 2px #171616;
 }
-
-
